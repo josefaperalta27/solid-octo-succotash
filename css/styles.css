@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:ital,wght@0,200;0,500;0,800;1,200;1,500;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.container-menu{
+    width:auto;
+    background-color: #0d7499; 
+    padding: 10px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    color: #c9f5f5;
+    text-decoration: none;
+    padding-left: 0;
+    right: 50px;
+}
+
+ a:hover{
+    color: #e7b286;
+}
+
+nav.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+h1{
+    color: #eff5f5;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 50px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    padding-right: 20px;
+}
+img {
+    width: 100%;
+    padding: 10px;
+}
+
+.container-quienessomos {
+  width: 80%;
+  height: auto;
+  
+  text-align: center;
+  color: #343d3d;
+  padding: 10%;
+  align-items: center;
+  text-align: left;
+}
+
+.container-elegirnos {
+  width: 80%;
+  height: auto;
+  background-color:#eff5f5;
+  text-align: center;
+  color: #181823;
+  padding: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+.container-propuestaeducativa {
+  width: 80%;
+  height: auto;
+  background-color:#ffcda4;
+  color: #1c1d1d;
+  padding: 10%;
+  align-items: center;
+  text-align: center;
+ }
+
+.contenedor-ultimas-noticias {
+    width: 90%;
+    height: auto;
+    background-color:#eff5f5;
+    color: #181823;
+    padding: 5%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+  width: 90%;
+  background-color: #181823;
+  height: 300px;
+  color: #eff5f5;
+  padding: 5%;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+ }
+   footer h2{
+   text-align: center;
+ }
+   footer p {
+   color: #eff5f5;
+   text-align: right;
+   font-family: 'Poppins';
+}
+  .box a{
+    color: #1f8a70;
+    display: inline-flex;
+    text-decoration: none;
+    position: left; 
+    margin-left: 50px;
+    width: 20px;
+    height: 50px;
+  }
+
+   .container-mapa {
+    position: center;
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+}
+
+@media (max-width:320px) {
+  button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   } 
+   footer{
+    height: 400px;
+   }
+   footer p{
+    text-align: center;
+   }
+   .box a {
+    padding-left: 10px;
+   }
+    nav.container-menu {
+      display: flex;
+     font-size: 13px;
+   }
+}
+
+@media (max-width:768px) {
+  footer{
+    height: 400px;
+   }
+   footer p{
+    text-align: center;
+   }
+   .box a {
+    padding-left: 50px;
+   }
+}
